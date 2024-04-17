@@ -1,3 +1,14 @@
 :host {
   display: block;
 }
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  background: linear-gradient(rgb(173, 169, 190) 0%, rgb(195, 202, 230) 100%);
+  box-shadow: 0 0 10px blue;
+  border-radius: 10px;
+}
