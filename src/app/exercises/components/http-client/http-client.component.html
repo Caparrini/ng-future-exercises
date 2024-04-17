@@ -1,0 +1,13 @@
+<button (click)="get_posts()">Get posts</button>
+<button (click)="create_post()">Create post</button>
+<button (click)="get_error()">Get error</button>
+
+<div>
+    <p class="post">{{posted_post?.title}}</p>
+</div>
+
+<div>
+    @for (post of posts; track post.id) {
+      <p class="post">{{ post.title }}</p>
+    }
+</div>
